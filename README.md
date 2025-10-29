@@ -1,4 +1,3 @@
-```markdown
 # Next-Gen AI-Powered Learning Management System (LMS)
 
 I built a **Next-Gen AI-Powered Learning Management System (LMS)** that redefines the future of online education.  
@@ -6,32 +5,53 @@ Built entirely with the **MERN Stack**, this full-stack application integrates *
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
+<details>
+<summary>Click to view folder structure</summary>
 
-```
 
-/lms
+
+
+
+
+
+ai-lms/
 │
-├── backend
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── middleware/
-│   └── server.js
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ ├── config/
+│ └── server.js
 │
-├── frontend
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── App.js
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── redux/
+│ │ └── App.js
+│ └── package.json
 │
 └── README.md
 
-```
+
+
+
+
+
+
+
+
+
+
+</details>
 
 ---
 
-## Key Features
+## 🚀 Key Features
+<details>
+<summary>Click to expand features</summary>
 
 - AI-Powered Smart Search (Gemini / OpenAI Integration)  
 - Google Authentication (OAuth 2.0)  
@@ -43,9 +63,13 @@ Built entirely with the **MERN Stack**, this full-stack application integrates *
 - Cloudinary Image Uploads via Multer  
 - Course Reviews, Ratings & AI Search Integration  
 
+</details>
+
 ---
 
-## Tech Stack Used
+## 🧰 Tech Stack Used
+<details>
+<summary>Click to view stack</summary>
 
 ### Frontend
 - React.js  
@@ -66,14 +90,26 @@ Built entirely with the **MERN Stack**, this full-stack application integrates *
 ### AI Integration
 - Gemini / OpenAI API  
 
+</details>
+
 ---
 
-## Environment Variables Setup
+## ⚙️ Environment Variables Setup
+<details>
+<summary>Click to view environment variable setup</summary>
 
-Create `.env` files in both `backend` and `frontend` folders.
+Create `.env` files in both **backend** and **frontend** folders.
 
 ### Backend `.env`
-```
+
+
+
+
+
+
+
+
+
 
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -86,61 +122,46 @@ CLOUDINARY_API_KEY=your_cloud_api_key
 CLOUDINARY_API_SECRET=your_cloud_api_secret
 OPENAI_API_KEY=your_openai_api_key
 
-```
 
-### Frontend `.env`
-```
 
-REACT_APP_BACKEND_URL=URL
+
+
+REACT_APP_BACKEND_URL=http://localhost:5000
+
 REACT_APP_RAZORPAY_KEY=your_razorpay_key_id
 REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
 
-```
+
+
+
+
+
+
+
+</details>
 
 ---
 
-## Run the Project
+## 🧠 How to Run the Project
+<details>
+<summary>Click to view setup steps</summary>
 
-### Backend
-```
+### 1. Clone the Repository
+
+
+
+Backend dependencies
 
 cd backend
+npm install
 npm run dev
 
-```
+Frontend dependencies
 
-### Frontend
-```
-
-cd frontend
+cd ../frontend
+npm install
 npm run dev
 
-```
 
----
 
-## Project Highlights
-
-- AI-Integrated Search with Gemini / OpenAI  
-- Admin Dashboard with Graphs and Analytics  
-- Course Management for Students & Instructors  
-- Secure Authentication using Google OAuth  
-- Razorpay Payments for Course Purchases  
-- Image Upload via Cloudinary  
-- Course Reviews & Ratings  
-- Modular Architecture with Reusable Components  
-
----
-
-## License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-## Tags
-
-#AILMS #MERNStack #AIProjects #FullStackDevelopment #ReactJS #NodeJS #MongoDB #ReduxToolkit  
-#GoogleAuth #RazorpayIntegration #OpenAI #GeminiAI #WebDevelopment #EdTech #SaaSStartup #CodingProjects
-```
 
